@@ -19,6 +19,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - OneSignal (2.13.1)
   - RCTRequired (0.61.5)
   - RCTTypeSafety (0.61.5):
     - FBLazyVector (= 0.61.5)
@@ -186,6 +187,9 @@ PODS:
     - React
   - react-native-key-pair (1.1.1):
     - React
+  - react-native-onesignal (3.7.3):
+    - OneSignal (= 2.13.1)
+    - React (< 1.0.0, >= 0.13.0)
   - react-native-safari-view (1.0.0):
     - React
   - react-native-safari-web-auth (1.0.4):
@@ -251,6 +255,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - OneSignal (< 3.0, >= 2.9.3)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
   - React (from `../node_modules/react-native/`)
@@ -264,6 +269,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-appearance (from `../node_modules/react-native-appearance`)
   - react-native-key-pair (from `../node_modules/react-native-key-pair`)
+  - react-native-onesignal (from `../node_modules/react-native-onesignal`)
   - react-native-safari-view (from `../node_modules/react-native-safari-view`)
   - react-native-safari-web-auth (from `../node_modules/react-native-safari-web-auth`)
   - react-native-webview (from `../node_modules/react-native-webview`)
@@ -291,6 +297,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
+    - OneSignal
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -325,6 +332,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-appearance"
   react-native-key-pair:
     :path: "../node_modules/react-native-key-pair"
+  react-native-onesignal:
+    :path: "../node_modules/react-native-onesignal"
   react-native-safari-view:
     :path: "../node_modules/react-native-safari-view"
   react-native-safari-web-auth:
@@ -377,6 +386,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 118d0d177724c2d67f08a59136eb29ef5943ec75
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
+  OneSignal: fa98eaa90372bb367b6a4a1c1622ffb9832c7600
   RCTRequired: b153add4da6e7dbc44aebf93f3cf4fcae392ddf1
   RCTTypeSafety: 9aa1b91d7f9310fc6eadc3cf95126ffe818af320
   React: b6a59ef847b2b40bb6e0180a97d0ca716969ac78
@@ -388,6 +398,7 @@ SPEC CHECKSUMS:
   React-jsinspector: fa0ecc501688c3c4c34f28834a76302233e29dc0
   react-native-appearance: c2e0666225d999f7f0e7d9a9cb6c627c6e4c4b92
   react-native-key-pair: d45fb2e417ffb0fca307e9bbe22111aa38c3233f
+  react-native-onesignal: 417b2ae5c3148a47a6ef70b6af443186048b2022
   react-native-safari-view: 955d7160d159241b8e9395d12d10ea0ef863dcdd
   react-native-safari-web-auth: b6642abaa8084a8e5addba1cba4521fd30b95b64
   react-native-webview: 9fb615251c147d1b94157b31fa0ea9c68b234c04
@@ -411,6 +422,6 @@ SPEC CHECKSUMS:
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: 0c784faacfe9725998cb3d961d8f74196090aea9
+PODFILE CHECKSUM: 8069bc1a786a824ce480ae1fdc433eab80419190
 
 COCOAPODS: 1.9.1

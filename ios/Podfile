@@ -33,4 +33,10 @@ target 'Discourse' do
 
   use_native_modules!
 
+
+  pod 'react-native-onesignal', :path => '../node_modules/react-native-onesignal'
+
+end
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '>= 2.9.3', '< 3.0'
 end
